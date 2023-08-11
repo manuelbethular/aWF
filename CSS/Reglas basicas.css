@@ -1,0 +1,26 @@
+h1 {
+    color: red;
+    /*esto quiere decir que todas las etiquetas h1 estrarán cambiando su color de texto a rojo. */
+}
+.titulos {
+    color: red;
+    /*esto quiere decir que todas las etiquetas con class igual a 'titulos' estarán cambiando su color de texto a rojo */
+}
+#titulo {
+    color: red;
+    /*esto quiere decir que aquel elemento con id 'titulo' estará cambiando su color de texto a rojo. */
+}
+section {
+    padding: 50px 30px;
+    margin-left: 40px;
+    /*se aplicaran a la sección*/
+}
+section article {
+    background-color: #cccccc;
+    width: 500px;
+    /*se aplicará a article, mas las propiedades de section*/
+}
+section article h2 {
+    height: 4em;
+    /*se aplicara a h2, mas las propiedades de section y article*/
+}

@@ -1,0 +1,73 @@
+h1 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:oblique;
+    font-size: 70pxpx;
+    text-align: center;
+}
+h2 {
+    color: goldenrod;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+}
+.exampleone {
+    background-color: red;
+    color: blue
+  }
+  
+.exampletwo {
+    background-color: blue;
+    color: red;
+  }
+  
+.examplethree {
+    background-color: red;
+    color: blue;
+  }
+
+.examplefour {
+    background-color: blue;
+    color: red
+}
+
+.examplefive {
+    background-color: red;
+    color: blue
+}
+
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin-bottom: 12px;
+}
+
+/* Background repeats */
+.one {
+  background-repeat: no-repeat;
+}
+.two {
+  background-repeat: repeat;
+}
+.three {
+  background-repeat: repeat-x;
+}
+.four {
+  background-repeat: repeat-y;
+}
+.five {
+  background-repeat: space;
+}
+.six {
+  background-repeat: round;
+}
+
+/* Multiple images */
+.seven {
+  background-image: url(starsolid.gif), url(favicon32.png);
+  background-repeat: repeat-x, repeat-y;
+  height: 144px;
+}
